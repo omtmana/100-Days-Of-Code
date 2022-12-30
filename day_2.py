@@ -36,3 +36,19 @@ second_num = two_digit_number[1]
 
 print(int(first_num) + int(second_num))
 
+# Second Coding Challenge BMI
+# Input : weight in kg, height it m
+# Output : BMI = (weight / (height ** 2))
+
+height = input("Input height in m: ")
+weight = input("Input weight in kg: ")
+
+# Convert input to either Float or Int to be able to mathematically combine them
+height_float = float(height)
+weight_int = int(weight)
+
+# Solve then print
+bmi = (weight / (height ** 2))
+print(bmi)
+
+
