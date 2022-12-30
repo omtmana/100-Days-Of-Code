@@ -35,3 +35,28 @@ print(len(input('What is your name? ')))
 # ******** VARIABLES *******
 name = input("What is your name")
 print(name)
+
+name = "Jack"
+print(name)
+
+name = "Angela"
+print(name)
+
+print(len(input('What is your name? ')))
+name = input('What is your name? ')
+length = len(name)
+print(length)
+
+
+# Input a : 1 b : 2
+# Output a : 2 b : 1
+a = input("a: ")
+b = input("b: ")
+
+storinga = a
+storingb = b
+a = storingb
+b = storinga
+
+print("a: " + a)
+print("b: " + b)
