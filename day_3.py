@@ -22,3 +22,11 @@ if height >= 120:
    print("You can ride the rollercoaster!")
 else:
    print("You can't ride the rollercoaster")
+
+# Checking if the number is even or odd
+number = int(input("Which number do you want to check? "))
+
+if number % 2 == 0:
+   print("This is an even number")
+else:
+   print("This is an odd number.")
