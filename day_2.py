@@ -49,6 +49,6 @@ weight_int = int(weight)
 
 # Solve then print
 bmi = (weight_int / (height_float ** 2))
-print(bmi)
+print(int(bmi))
 
 
