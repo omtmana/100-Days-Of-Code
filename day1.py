@@ -31,3 +31,7 @@ print("Hello " + input("What is your name?"))
 # Output : 6
 
 print(len(input('What is your name? ')))
+
+# ******** VARIABLES *******
+name = input("What is your name")
+print(name)
