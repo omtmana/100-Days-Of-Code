@@ -21,5 +21,13 @@ print('Hello' + '' + 'Molly')
 
 # ********** Input Function ***********
 # input() function
-
+input("A prompt for the user")
 input("What is your name?")
+
+print("Hello " + input("What is your name?"))
+# checkout Thonny.org
+
+# Input : Angela
+# Output : 6
+
+print(len(input('What is your name? ')))
