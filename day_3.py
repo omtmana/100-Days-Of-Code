@@ -30,3 +30,13 @@ if number % 2 == 0:
    print("This is an even number")
 else:
    print("This is an odd number.")
+
+# Nested if statements and elif statements
+if condition:
+   if another condition:
+      do this
+   else:
+      do this
+else:
+   do this
+# We need to check their height and also age
