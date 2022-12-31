@@ -100,3 +100,22 @@ else:
    print(f"Your BMI is {bmi}, you are clinically obese")
 
 # Adding my method of code for this challenge
+# 🚨 Don't change the code below 👇
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+bmi = int(round(weight / (height ** 2)))
+
+# conditionals to print dif. responses
+if bmi >= 35:
+    print(f"Your BMI is {bmi}, you are clinically obese.")
+elif bmi in range(30, 35):
+    print(f"Your BMI is {bmi}, you are obese.")
+elif bmi in range(25, 30):
+    print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif bmi in range(int(18.5), 25):
+    print(f"Your BMI is {bmi}, you have a normal weight.")
+else:
+    print(f"Your BMI is {bmi}, you are underweight.")
