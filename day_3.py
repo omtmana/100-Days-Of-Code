@@ -34,9 +34,11 @@ else:
 # Nested if statements and elif statements
 if condition:
    if another condition:
-      do this
+      do this # for this to happen first and second if condition has to be true
    else:
-      do this
+      do this # for this to happen first if has to be true second if has to be false
 else:
-   do this
+   do this # for this to happen first and second if statements has to be false
+
+
 # We need to check their height and also age
