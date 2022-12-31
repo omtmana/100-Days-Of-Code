@@ -64,4 +64,20 @@ elif condition3:
    do C # if condition1 and 2 are false, then this happens
 else:
    do this # if condition1, 2, and 3 are false, then this happens
-   
+
+
+# There are different prices for different ages too! account for that pls
+print("Welcome to the Rollercoaster")
+height = int(input("What is your height in cm"))
+
+if height >= 120:
+   print("You can ride the rollercoaster")
+   age = int(input("What is your age?"))
+   if age < 12:
+      print("Please pay $5")
+   elif age <= 18:
+      print("Please pay $7")
+   else:
+      print("Please pay $12")
+else:
+   print("Sorry, you have to grow taller before you can ride.")
