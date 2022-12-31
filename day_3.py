@@ -54,3 +54,14 @@ if height >= 120:
       print("Please pay $12.")
 else:
    print("Sorry you have to grow taller before you can ride.")
+
+# if / elif / else
+if condition1:
+   do A # if condition1 is true this happens
+elif condition2:
+   do B # if condition1 is false and condition2 is true, then this happens
+elif condition3:
+   do C # if condition1 and 2 are false, then this happens
+else:
+   do this # if condition1, 2, and 3 are false, then this happens
+   
