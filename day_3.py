@@ -149,3 +149,31 @@ if condition2: # if true will do this too
    do B
 if condition3: # if true will do this as well
    do C
+
+# Multiple If statements example
+print("Welcome to my Rollercoaster!")
+height = int(input("What is your height in cm?"))
+bill = 0
+
+if height >= 120:
+   print("You can ride the rollercoaster!")
+   age = int(input("What is your age?"))
+
+   if age < 12:
+      print("Please pay $5")
+      bill = 5
+   elif age <= 18:
+      print("Please pay $7")
+      bill = 7
+   else:
+      print("Please pay $12")
+
+   ticket_purchase = input("Do you want to purchase a ticket for $3? Y or N")
+
+   if ticket_purchase == "Y":
+      # bill = bill + 3
+      bill += 3
+      print(f"Your bill is ${bill}")
+   
+else:
+   print("Sorry, you have to grow taller before you can ride")
