@@ -133,3 +133,19 @@ if year % 4 == 0:
       print("Leap Year")
 else:
    print("Not leap year")
+
+# Recap
+if condition1: # if this is true, then do A will happen and that's it
+   do A  
+elif condition2:
+   do B
+else:
+   do C
+
+# Multiple if
+if condition1: #if true do this
+   do A
+if condition2: # if true will do this too
+   do B
+if condition3: # if true will do this as well
+   do C
