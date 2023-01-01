@@ -119,3 +119,6 @@ elif bmi in range(int(18.5), 25):
     print(f"Your BMI is {bmi}, you have a normal weight.")
 else:
     print(f"Your BMI is {bmi}, you are underweight.")
+
+# Leap year or Not leap year
+
