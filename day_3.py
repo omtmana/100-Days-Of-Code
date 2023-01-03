@@ -234,3 +234,21 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
 combined_string = name1 + name2
+name_lower = combined_string.lower()
+
+t = name_lower.count("t")
+r = name_lower.count("r")
+u = name_lower.count("u")
+e = name_lower.count("e")
+true = str(t + r + u + e)
+
+l = name_lower.count("l")
+o = name_lower.count("o")
+v = name_lower.count("v")
+e = name_lower.count("e")
+love = str(l + o + v + e)
+
+true_love = int(true + love)
+
+
+
