@@ -227,3 +227,10 @@ and , or, not
 # not. 
 a = 12
 not a > 15 #true
+
+# True Love Exercise
+print("Welcome to the True Love Calculator")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+combined_string = name1 + name2
