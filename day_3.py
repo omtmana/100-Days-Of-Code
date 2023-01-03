@@ -250,5 +250,12 @@ love = str(l + o + v + e)
 
 true_love = int(true + love)
 
+if true_love > 10 or true_love < 90:
+   print(f"Your score is {true_love}. Match made in heaven")
+elif true_love > 40 and true_love < 50:
+   print(f"Your score is {true_love}. You're alright")
+else:
+   print(f"Your score is {true_love}")
+
 
 
