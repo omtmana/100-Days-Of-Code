@@ -187,3 +187,25 @@ else:
    # Pepperoni for Small Pizza: +$2
    # Pepperoni for Medium or Large Pizza: +$3
    # Extra cheese for any size pizza: + $1
+
+print("Welcome to Python Pizza")
+size = input("What size of pizza do you want? S, M, or L?")
+add_peperoni = input("Add peperoni? Y or N")
+extra_cheese = input("Extra cheese? Y or N")
+
+bill = 0
+
+if size == "S":
+   bill += 15
+elif size == "M":
+   bill += 20
+elif size == "L":
+   bill += 25
+
+if add_peperoni == "Y":
+   if size == "S":
+      bill += 2
+   else:
+      bill += 3
+
+if extra_cheese == "Y"
