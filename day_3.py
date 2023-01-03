@@ -212,3 +212,20 @@ if extra_cheese == "Y":
    bill += 1
 
 print(f"Your final bill is: ${bill}.")
+
+# Multiple Conditions
+if condition1 & condition2 & condition3:  # You need to use Logical Operators
+   do this
+else:
+   do this
+
+# Logical Operators
+and , or, not
+
+# and. Both conditions need to be true to be true
+A and B
+
+# or. One condition need to be true to do condition
+# not. 
+a = 12
+not a > 15 #true
