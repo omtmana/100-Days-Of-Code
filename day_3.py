@@ -223,8 +223,6 @@ else:
 and , or, not
 
 # and. Both conditions need to be true to be true
-A and B
-
 # or. One condition need to be true to do condition
 # not. 
 a = 12
