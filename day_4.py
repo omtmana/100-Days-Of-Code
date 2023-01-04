@@ -22,3 +22,22 @@ if zero_one == 1:
    print("Heads")
 else:
    print("Tails")
+
+# List
+# variable : storing one piece of data
+# Data Structure : way of organizing and storing group pieces of data
+   # a way to store with order
+fruits = [item1, item2, item3, item4, item5]
+fruits = ["Cherry", "Apple", "Mango"]
+
+# Before
+state1 = "Delaware"
+state2 = "New York"
+
+# Now
+states_of_america = ["Delaware", "New York", "California"]
+print(states_of_america[0]) # Delaware
+print(states_of_america[-1]) # California
+
+#  Add at the end
+states_of_america.append("MollyLand")
