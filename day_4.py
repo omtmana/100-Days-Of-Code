@@ -41,3 +41,17 @@ print(states_of_america[-1]) # California
 
 #  Add at the end
 states_of_america.append("MollyLand")
+
+# Import the random module here
+# Split string method
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+bill_pay = len(names)
+index_random = random.randint(0, bill_pay - 1)
+person_to_treat = names[index_random]
+# print(person_to_treat)
+
+print(f"{person_to_treat} is going to buy the meal today!")
