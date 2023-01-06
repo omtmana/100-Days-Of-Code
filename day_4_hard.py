@@ -11,8 +11,6 @@ position = input("Where do you want to put the treasure? ")
 column = int(position[0])
 row = int(position[1])
 
-if
-
 
 # Write your code above this row 👆
 
