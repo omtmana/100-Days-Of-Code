@@ -26,3 +26,10 @@ for n in range(0, len(student_heights)):
 
 
 # Write your code below this row 👇
+sum = 0
+num_of_height = len(student_heights)
+for height in student_heights:
+    sum += height
+    total = round(sum / num_of_height)
+
+print(total)
