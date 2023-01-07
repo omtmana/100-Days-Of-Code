@@ -33,3 +33,14 @@ for height in student_heights:
     total = round(sum / num_of_height)
 
 print(total)
+
+sum = 0
+for height in student_heights:
+    sum += height
+
+num_of_students = 0
+for student in student_heights:
+    num_of_students += 1
+
+total = round(sum / num_of_students)
+print(total)
