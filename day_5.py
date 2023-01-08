@@ -65,3 +65,7 @@ print(f"The highest score in the class is: {highest_score}")
 # For loops and the range() function
 for number in range(a, b):
     print(number)
+
+# example (1 to 9, 10 doesnt get print out)
+for number in range(1, 10):
+    print(number)
