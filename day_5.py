@@ -61,3 +61,7 @@ for score in student_scores:
         highest_score = score
 
 print(f"The highest score in the class is: {highest_score}")
+
+# For loops and the range() function
+for number in range(a, b):
+    print(number)
