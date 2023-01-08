@@ -74,3 +74,5 @@ total = 0
 for number in range(1, 101):
     total += number
 print(total)
+
+# Adding only the even numbers from 1-100
