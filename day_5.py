@@ -44,3 +44,7 @@ for student in student_heights:
 
 total = round(sum / num_of_students)
 print(total)
+
+
+# Highest Score exercise
+ 
