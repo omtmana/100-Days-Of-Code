@@ -67,5 +67,5 @@ for number in range(a, b):
     print(number)
 
 # example (1 to 9, 10 doesnt get print out)
-for number in range(1, 10):
+for number in range(1, 10, 3):
     print(number)
