@@ -69,3 +69,7 @@ for number in range(a, b):
 # example (1 to 9, 10 doesnt get print out)
 for number in range(1, 10, 3):
     print(number)
+
+total = 0
+for number in range(1, 101):
+    total += number
