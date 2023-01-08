@@ -97,3 +97,5 @@ for number in range(1, 101):
         print("Buzz")
     else:
         print(number)
+
+#  Final Ex: Random password generator
