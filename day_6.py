@@ -13,17 +13,38 @@ my_function_name()
 # instructions it can carry out the steps over and over again
 
 # Reborgs World
-def turn_left():
-   # do this
-
-def move():
-   # do this
-
 def turn_right():
-   turn_left()
-   turn_left()
-   turn_left()
+    turn_left()
+    turn_left()
+    turn_left()
 
+
+def move_box():
+    turn_left()
+    move()
+
+
+def up_and_down():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+
+
+move()
+up_and_down()
+move_box()
+up_and_down()
+move_box()
+up_and_down()
+move_box()
+up_and_down()
+move_box()
+up_and_down()
+move_box()
+up_and_down()
 
 
 
