@@ -47,5 +47,9 @@ move_box()
 up_and_down()
 
 # While Loop
+while condition_is_true:
+   # Do this
+
+# Final Challenge for Day 6
 
 
