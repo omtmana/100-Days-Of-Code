@@ -28,3 +28,22 @@ for num in range(1, nr_numbers + 1):
 print(password)
 
 # Hard Level
+password_list = []
+
+for char in range(1, nr_letters + 1):
+   password_list.append(random.choice(letters))
+
+for symb in range(1, nr_symbols + 1):
+   password_list.append(random.choice(symbols))
+
+for num in range(1, nr_numbers + 1):
+   password_list.append(random.choice(numbers))
+
+print(password_list)
+
+new_password = ''
+
+for char in password_list:
+   new_password += char
+
+print(new_password)
