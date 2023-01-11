@@ -71,3 +71,6 @@ while display.count("_") != 0:
 
 print("You've Won!")
 print(display)
+
+# Step 4
+
