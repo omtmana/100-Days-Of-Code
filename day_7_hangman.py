@@ -177,3 +177,5 @@ while not end_of_game:
 
     # TODO-3: - print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
 print(stages[lives])
+
+# Step 5 : Final Step!
