@@ -15,13 +15,16 @@ cipher_arr = []
 
 
 def encrypt(text, shift):
-    for letter in text:
-        index_of = alphabet.index(letter) + shift
-        new_letter = alphabet[index_of]
-        cipher_arr.append(new_letter)
-        cipher_text = "".join(cipher_arr)
-
-    print(f"The encoded text is {cipher_text}")
+  cipher_text = ""
+  for letter in text:
+    index_of = alphabet.index(letter) + shift
+    if index_of > 25:
+      index_of = index_of - 25
+    else:
+      new_letter = alphabet[index_of]
+      cipher_arr.append(new_letter)
+      cipher_text = "".join(cipher_arr)
+  print(f"The encoded text is {cipher_text}")
 
     # TODO-2: Inside the 'encrypt' function, shift each letter of the 'text' forwards in the alphabet by the shift amount and print the encrypted text.
     # e.g.
