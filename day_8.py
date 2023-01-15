@@ -43,3 +43,11 @@ def encrypt(text, shift):
 encrypt(text, shift)
 
 # Part 2 Ceasar Cipher
+# Solution
+def decrypt(text, shift):
+  plain_text = ""
+  for letter in text:
+    position = alphabet.index(letter)
+    new_post = position - shift
+    plain_text += alphabet[new_post]
+  print(f"Decoded text is {plain_text}")
