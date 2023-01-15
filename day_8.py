@@ -51,3 +51,6 @@ def decrypt(text, shift):
     new_post = position - shift
     plain_text += alphabet[new_post]
   print(f"Decoded text is {plain_text}")
+
+  # Part 3 : Clean up code
+  
