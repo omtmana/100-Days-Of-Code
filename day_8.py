@@ -52,5 +52,22 @@ def decrypt(text, shift):
     plain_text += alphabet[new_post]
   print(f"Decoded text is {plain_text}")
 
-  # Part 3 : Clean up code
-  
+# Part 3 : Clean up code
+# Solution
+
+
+def caesar(text, shift, direction):
+  final_word = ""
+  for letter in text:
+    position = alphabet.index(letter)
+    if direction == "encode":
+      new_position = position + shift
+      final_word += alphabet[new_position]
+    if direction == "decode":
+      new_position = position - shift
+      final_word += alphabet[new_position]
+
+  print(f"The result is {final_word}")
+
+
+caesar(text, shift, direction)
