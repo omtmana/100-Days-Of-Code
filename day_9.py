@@ -15,7 +15,58 @@ programming_dictionary = {
    "Loop": "Action of doing something over and over again"
 }
 
-# Retrive something from a dictionary
+# Retrive items from a dictionary
 programming_dictionary["Bug"]
 print(programming_dictionary["Bug"])
 dictionary_name["keyName"]
+
+# Adding a Piece of data in dictionary
+dictionary_name["keyName"] = "Value of the key you want to add"
+
+# Create a new dictionary
+empty_dictionary = {}
+# empty_dictionary = []
+
+# Wipe an existing dictionary
+programming_dictionary = {}
+print(programming_dictionary)
+
+# Edit an item in a dictionary
+programming_dictionary["Bug"] = "This is the redefined value from the key I fetched"
+
+# Loop Through a dictionary
+for thing in programming_dictionary:
+   print(programming_dictionary[thing]) #this gives you the value
+
+for key in programming_dictionary:
+   print(key) # this gives you only the key in the dictionary
+
+# Student Grades exercise
+student_scores = {
+    "Harry": 81,
+    "Ron": 78,
+    "Hermione": 99,
+    "Draco": 74,
+    "Neville": 62,
+}
+# 🚨 Don't change the code above 👆
+
+# TODO-1: Create an empty dictionary called student_grades.
+student_grades = {}
+
+# student_grades[student]
+# TODO-2: Write your code below to add the grades to student_grades.👇
+for student in student_scores:
+    score = student_scores[student]
+    if score < 70:
+        student_grades[student] = 'Fail'
+    elif score > 70 and score < 80:
+        student_grades[student] = 'Acceptable'
+    elif score > 80 and score < 90:
+        student_grades[student] = "Exceeds Expectations"
+    elif score > 91 and score < 100:
+        student_grades[student] = 'Outstanding'
+
+
+# 🚨 Don't change the code below 👇
+print(student_grades)
