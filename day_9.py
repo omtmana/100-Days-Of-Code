@@ -104,4 +104,81 @@ travel_log = {
    }
 }
 
+# Nesting a dictionary in a list
+dic_in_list = [
+   {
+      key: ['item1', 'item2'],
+      key2: {
+         key2a: 'value2a',
+         key2b: 'value2b'
+      }
+   },
+   {
+      key: value,
+      key2: value2  
+   }
+]
+
+# Nesting Dictionary in a List
+
+travel_log = [
+   {
+      id: 1
+      "country": "France",
+      "cities_visited": ["Paris", "Lille", "Dijon"],
+      "total_visits": 12
+   },
+   {
+      id: 2
+      "country": "Germany",
+      "cities_visited": ["Berlin", "Hamburg", "Stuttgart"],
+      "total_visits": 5
+   },
+]
+
+# My solution
+travel_log = [
+    {
+        "country": "France",
+        "visits": 12,
+        "cities": ["Paris", "Lille", "Dijon"]
+    },
+    {
+        "country": "Germany",
+        "visits": 5,
+        "cities": ["Berlin", "Hamburg", "Stuttgart"]
+    },
+]
+
+# My Solution
+# Goal: Add new dictionary in a list
+
+# create a function that accepts 3 arguments
+def add_new_country(new_country, new_visits, new_cities):
+   # Adding key value pairs to a dictionary
+   new_dic = {
+      "country": new_country,
+      "visits": new_visits,
+      "cities": new_cities
+   }
+
+   # Adding new dictionary to the end of the list
+   travel_log.append(new_dic)
+
+# Her Solution
+def add_new_country(country_visited, times_visited, cities_visited):
+   # create new dictionary
+   new_dictionary = {}
+   # Adding new keys and values to created dictionary
+   new_dictionary["country"] = country_visited
+   new_dictionary["visits"] = times_visited
+   new_dictionary["cities"] = cities_visited
+
+   # Adding it to end of list
+   travel_log.append(new_dictionary)
+
+
+# 🚨 Do not change the code below
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+print(travel_log)
  
