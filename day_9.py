@@ -79,3 +79,29 @@ nested = {
       key2b: 'value2b'
    },
 }
+
+# Sample dictionaries
+capitals = {
+   "France": "Paris",
+   "Germany": "Berlin",
+}
+
+# Nesting a list in a dictionary
+travel_log = {
+   "France": ["Paris", "Lille", "Dijon"],
+   "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
+
+# Nesting a dictionary in a dictionary
+travel_log = {
+   'France': {
+      'cities_visited': ['Paris', 'Lille', 'Dijon'],
+      'total_visits': 12
+   },
+   "America": {
+      'cities_visited': ['New York', 'San Francisco', 'Las Vegas'],
+      'total_visits': 12
+   }
+}
+
+ 
