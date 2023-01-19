@@ -70,3 +70,12 @@ for student in student_scores:
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
+
+# Nested
+nested = {
+   key: ['item1', 'item', 'item3'],
+   key2: {
+      key2a: 'value2a',
+      key2b: 'value2b'
+   },
+}
