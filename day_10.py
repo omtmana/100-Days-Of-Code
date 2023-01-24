@@ -21,3 +21,9 @@ def my_function():
    return 2 * 3
 
 output = my_function():
+
+# Example
+def my_function(first_name, last_name):
+   title_first_name = first_name.title()
+   title_last_name = last_name.title()
+   return "{title_first_name} {title_last_name}"
