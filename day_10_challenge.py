@@ -32,3 +32,25 @@ while not is_calculating:
   elif should_continue == "y":
     num_1 = total
    
+# Different solution
+# Step 1: Create a function for each operation
+def add(n1, n2):
+   return n1 + n2
+
+def subtract(n1, n2):
+   return n1 - n2
+
+def multiply(n1, n2):
+   return n1 * n2
+
+def divide(n1, n2):
+   return n1 / n2
+
+# Step 2: Create a dictionary with key = sign, value = function name
+operations = {
+   "+" : add(),
+   "-" : subtract(),
+   "*" : multiply(),
+   "/" : divide(),
+}
+
