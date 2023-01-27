@@ -62,3 +62,17 @@ def format_name(f_name, l_name):
   formated_f_name = f_name.title()
   formated_l_name = l_name.title()
   return f"Result: {formated_f_name} {formated_l_name}"
+
+
+# Docstrings
+# This is a way for you to be able to document your functions
+# This goes under the first line of delaring a function
+def my_function(first_name, last_name):
+   """Take a first and last name and format it 
+   to return the title case version of the name."""
+   if first_name == "" or last_name == "":
+      return "You didn't provide valid inputs"
+   formated_f_name = first_name.title()
+   formatted_l_name = last_name.title()
+   return f"Result: {formated_f_name} {formatted_l_name}"
+
